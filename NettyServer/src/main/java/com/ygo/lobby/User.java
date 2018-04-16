@@ -11,6 +11,12 @@ public class User {
     private String ip;
     private int port;
 
+    public User(String name, String ip, int port) {
+        this.name = name;
+        this.ip = ip;
+        this.port = port;
+    }
+
     public String getName() {
         return name;
     }

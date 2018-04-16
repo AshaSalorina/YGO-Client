@@ -17,6 +17,14 @@ public class Room {
     private List<User>players = new LinkedList<>();
     private List<User>observers = new LinkedList<>();
 
+    public Room(String id, String name, String password, List<User> players, List<User> observers) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+        this.players = players;
+        this.observers = observers;
+    }
+
     public List<User> getPlayers() {
         return players;
     }
