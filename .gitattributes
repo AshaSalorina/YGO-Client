@@ -61,3 +61,8 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+#Set Display Language
+*.cs linguist-language=csharper 
+*.class linguist-language=java 
+*.java linguist-language=java
