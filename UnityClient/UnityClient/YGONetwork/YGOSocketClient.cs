@@ -11,7 +11,7 @@ namespace YGONetwork
 {
     public class YGOSocketClient
     {
-        private const string IP = "120.79.198.89";
+        private const string IP = "服务器IP地址";
         private const int PORT = 2333;
 
         private Socket client;
