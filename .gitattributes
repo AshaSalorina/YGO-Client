@@ -63,6 +63,6 @@
 #*.RTF   diff=astextplain
 
 #Set Display Language
-*.cs linguist-language=csharper 
+*.cs linguist-language=c#
 *.class linguist-language=java 
 *.java linguist-language=java
