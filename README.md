@@ -1,2 +1,2 @@
-# 基于Unity客户端和Netty服务端的游戏王卡牌游戏
-# A Yo-Gi-Oh deck game base on Unity Client and Netty Server
+# 基于Unity的简单游戏王卡牌游戏(客户端)
+# A simple Yo-Gi-Oh simulation game base on Unity
