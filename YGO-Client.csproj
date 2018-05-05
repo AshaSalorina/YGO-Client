@@ -13,12 +13,14 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -223,7 +225,7 @@
     <Compile Include="Assets\Project\Script\GameSystem\CardSelect\Mono_MoveCard_Card.cs" />
     <Compile Include="Assets\Project\Script\GameSystem\CardSelect\Mono_MoveCard_Mouse.cs" />
     <Compile Include="Assets\Project\Script\GameSystem\LinkFrameWork\BaseTimePoint.cs" />
-    <Compile Include="Assets\Project\Script\GameSystem\Network\YGOSocketClient.cs" />
+    <Compile Include="Assets\Project\Script\GameSystem\Network\DuelClient.cs" />
     <Compile Include="Assets\Project\Script\Setting\Setting.cs" />
     <Compile Include="Assets\Project\Script\UI\UI_MS_Background.cs" />
     <Compile Include="Assets\Project\Script\UI\UIFrameWork\AUIBase.cs" />
